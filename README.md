@@ -32,6 +32,12 @@ publish an interactive course with React.
 4. Open http://localhost:3000 and enjoy 😉
 
 
+### Using Dockerfile ####
+1. Clone or fork this repository
+2. docker build -t app-nextjs .
+3. docker run -p 3000:3000 app-nextjs
+4. Open http://localhost:3000 and enjoy 😉
+
 
 
 The lessons are located in `lessons` directory.
@@ -57,10 +63,4 @@ But also know that this template is offered free of charge, and I can’t
 guarantee to fix all problems 🙂.
 
 
-
-### Using Dockerfile ####
-1. Clone or fork this repository
-2. docker build -t app-nextjs .
-3. docker run -p 3000:3000 app-nextjs
-4. Open http://localhost:3000 and enjoy 😉
 
